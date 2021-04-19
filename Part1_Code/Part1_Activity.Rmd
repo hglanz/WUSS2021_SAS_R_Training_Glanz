@@ -1,0 +1,59 @@
+---
+title: "SAS + R Workshop Part 1 Activity"
+author: "Hunter Glanz"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Dataset Description
+
+In this activity you will be working with the NBA_player_of_the_week.csv dataset file, located within the "Data/" subfolder of our course materials. This dataset contains information on the player of the week from the 1984-1985 season all the way up through the 2017-2018 season.
+
+Use this RMarkdown file or a SAS script to do the following:
+
+1. Read the dataset in
+
+```{r}
+# Your code here
+```
+
+2. Explore the variables and their values. In particular, investigate the Height and Weight variables and their values. Is there anything wrong?
+
+```{r}
+# Your code here
+```
+
+3. Fix the Height variable. Create a variable called `heightIn` that contains the player heights in inches (2.54cm = 1in). You may create other variables or do other work along the way.
+
+```{r}
+# Your code here
+```
+
+4. Fix the Weight variable. Create a variable called `weightlb` that contains the player weights in pounds (1kg = 2.20462lbs). You may create other variables or do other work along the way.
+
+```{r}
+# Your code here
+```
+
+5. Create a new variable in your dataset called timesWon which represents the number of
+times each player won player of the week (Note: this value will be repeated every time a player
+appears in the dataset; i.e. Tim Duncan will have a value of 23 for each of his rows/observations).
+
+```{r}
+# Your code here
+```
+
+6. Create one more variable, called recentSeason, which represents the most recent season
+a player won player of the week (Note: this value be repeated every time a player appears in the
+dataset; i.e. Andre Drummond will have a value of 2018 for each of his rows/observations).
+
+```{r}
+# Your code here
+```
+ 
+
+
+
