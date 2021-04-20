@@ -1,1 +1,2 @@
-# WUSS2021_SAS_R_Training_Glanz
+# WUSS 2021 SAS+R Training
+## By: Hunter Glanz
